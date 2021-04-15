@@ -1,0 +1,149 @@
+.wrapper {
+    height: auto;
+    background-color: #d3c7c3;
+    border-radius: 10px;
+    text-align: center;
+    padding: 8px;
+    margin: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    transition: .2s ease;
+}
+
+.wrapper:hover {
+ transform: scale(1.1);
+}
+
+
+.wrapper ul li {
+    list-style: none;
+    font-size: 1.4rem;
+    font-weight: 500;
+}
+
+.recipe-img {
+ 
+ width: 180px;
+ height: 180px;
+ 
+}
+.recipeview-img {
+    width: 100%;
+    height: 60vh;
+}
+
+.recipeview-img img{
+    height: 100%;
+    width: 100%;
+}
+
+.recipe-info {
+    background-color: #d3c7c3;;
+}
+
+.recipe-img img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.wrapper h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.8rem;
+    font-weight: 500;
+    color:#fff;
+    padding: 5px;
+
+}
+
+.wrapper p {
+    color: rgb(255, 5, 5);
+    font-size: 1.4rem;
+    font-weight: 500;
+    padding: 5px;
+}
+
+.recipe_desc li{
+    display: flex;
+    flex-direction: column;
+    font-size: 1.6rem;
+    font-weight: 500;
+    
+}
+
+.btn-url a {
+    text-decoration: none;
+    color: #fff;
+    
+}
+
+
+.btn-url {
+    text-transform: uppercase;
+    background-color: rgb(255, 5, 5);
+    font-size: 1rem;
+    font-weight: 500;
+    padding: 10px 15px;
+    color: #fff;
+    display: inline-block;
+    margin:  10px;
+    transition: all .3s ease;
+}
+
+.btn-url:hover {
+    transform: scale(1.2);
+}
+
+.form-div {
+   padding-left: 6rem;
+   padding-right: 9rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+@media only screen and (max-width: 635px) { 
+    .form-div {
+        padding: 2rem;
+        padding-left: 2rem;
+    }
+    .form-header {
+        font-size: 17px;
+    }
+    .form-div img {
+        height: 25rem;
+        width: 18rem;
+    }
+}
+
+.container button {
+    padding: 6px 10px;
+    color: #fff;
+    background-color: blue;
+    font-weight: 600;
+    border: none;
+    margin: 8px;
+    cursor: pointer;
+}
+
+.particles {
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.form-header {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
